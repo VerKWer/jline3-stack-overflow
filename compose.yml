@@ -1,0 +1,6 @@
+services:
+  jline3-stack-overflow:
+    image: jline3-stack-overflow:latest
+    stdin_open: true
+    tty: true
+    build: .
